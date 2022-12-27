@@ -6,7 +6,8 @@ import os
 import logging
 
 from chirp import bitwise
-from chirp.ui import common, config
+from chirp.ui import common
+from chirp.wxui import config
 
 LOG = logging.getLogger(__name__)
 

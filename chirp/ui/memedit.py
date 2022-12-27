@@ -32,8 +32,9 @@ import logging
 
 import six
 
-from chirp.ui import common, shiftdialog, miscwidgets, config, memdetail
+from chirp.ui import common, shiftdialog, miscwidgets, memdetail
 from chirp.ui import compat
+from chirp.wxui import config
 from chirp import bandplan
 from chirp import chirp_common, errors, directory, import_logic
 

@@ -29,13 +29,15 @@ import sys
 from chirp.ui import inputdialog, common
 from chirp.ui import compat
 from chirp import platform, directory, util
-from chirp.drivers import generic_csv, repeaterbook
+from chirp.drivers import generic_csv
+from chirp.sources import repeaterbook
 from chirp.drivers import ic9x, kenwood_live, idrp, vx7, vx5, vx6
 from chirp.drivers import icf, ic9x_icf
 from chirp import CHIRP_VERSION, chirp_common, detect, errors
 from chirp import bandplan
-from chirp.ui import editorset, clone, miscwidgets, config, reporting, fips
+from chirp.ui import editorset, clone, miscwidgets, reporting
 from chirp.ui import bandplans
+from chirp.wxui import config, fips
 
 if sys.version_info < (3, 10):
     import importlib_resources

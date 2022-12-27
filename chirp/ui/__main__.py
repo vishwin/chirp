@@ -38,7 +38,7 @@ def main():
     from chirp import logger
     from chirp import elib_intl
     from chirp import platform
-    from chirp.ui import config
+    from chirp.wxui import config
 
     directory.import_drivers()
 
